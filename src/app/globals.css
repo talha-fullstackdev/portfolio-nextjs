@@ -56,3 +56,19 @@ body{
     border-radius: 6px;
     animation: borderAnimation 2s linear infinite;
   }
+  @keyframes scaleEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .scale-animation {
+    display: inline-block;
+    animation: scaleEffect 2s ease-in-out infinite;
+  }
