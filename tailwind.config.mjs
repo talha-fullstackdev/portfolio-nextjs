@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+       title: [ "Pacifico","sans-serif"]
+      }
     },
   },
   plugins: [],
