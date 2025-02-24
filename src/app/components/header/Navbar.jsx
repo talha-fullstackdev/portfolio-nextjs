@@ -5,7 +5,7 @@ const Navbar = () => {
   const linkStyles="hover:text-blue-400"
   return (
     <>
-      <ul className="flex flex-col gap-2 text-xl mt-3 md:flex-row md:justify-center md:items-center md:gap-10 md:mt-0 md:py-2 flex-wrap">
+      <ul className="flex flex-col gap-2 text-lg mt-3 md:flex-row md:justify-center md:items-center md:gap-10 md:mt-0 md:py-2 flex-wrap">
         <a className={linkStyles} href="">About</a>
         <a className={linkStyles} href="">Skills</a>
         <a className={linkStyles} href="">Experience</a>
