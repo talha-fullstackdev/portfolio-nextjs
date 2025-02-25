@@ -3,7 +3,7 @@ import AboutMe from './AboutMe'
 import AboutAnimation from './AboutAnimation'
 const About = () => {
   return (
-    <div>
+    <div className='px-8 mt-10  md:mt-20 md:flex'>
         <AboutMe/>
         <AboutAnimation/>
     </div>
