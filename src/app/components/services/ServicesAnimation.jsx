@@ -5,8 +5,8 @@ import animation from "../../../assets/images/Animation.json"
 const ServicesAnimation = () => {
   return (
   
-         <div className="">
-      <Lottie animationData={animation} className="" />
+    <div className="">
+      <Lottie animationData={animation} className="md:w-[500px]" />
     </div>
     
   )

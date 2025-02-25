@@ -34,11 +34,11 @@ const data = [
     },
     {
         icon:nextjs,
-        tooltip:""
+        tooltip:"Next.js"
     },
     {
         icon:node,
-        tooltip:"Next.JS"
+        tooltip:"node js"
     },
     {
         icon:express,
