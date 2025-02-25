@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <div className='md:w-[800px]'>
         <div className="md:px-8">
-            <h2 className='text-3xl font-semibold'>About Me</h2>
+            <h2 className='text-3xl font-bold text-white'>About Me</h2>
             <p className='mt-6 text-[18px] text-slate-400'>Hi, I’m Talha Nawaz, a graduate with a BS in Software Engineering from <span className='text-blue-400'> lahore Garrison University.</span> I specialize in crafting scalable, AI-driven web solutions using modern full-stack technologies. With 3+ years of hands-on experience, I excel in leveraging Next.js, React, and Node.js to build performant SaaS applications, real-time systems, and LLM-integrated platforms that solve complex user problems. My expertise spans end-to-end development, from architecting AI/LLM solutions (like OCR text extraction and chatbots) to optimizing server-side performance with Express.js, MongoDB, and PostgreSQL. I engineered AI-powered React applications that boosted user retention, while my freelance work on Upwork involved deploying custom LLM dashboards and WebSocket-driven features to streamline client workflows.</p>
         </div>
         <div className="mt-4 md:px-10 ">
