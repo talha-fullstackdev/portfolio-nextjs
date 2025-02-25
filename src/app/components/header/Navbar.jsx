@@ -2,10 +2,10 @@ import React from "react";
 import { IoSunnyOutline } from "react-icons/io5";
 
 const Navbar = () => {
-  const linkStyles="hover:text-blue-400"
+  const linkStyles="hover:text-blue-400 hover:underline hover:underline-offset-4"
   return (
     <>
-      <ul className="flex flex-col gap-2 text-lg mt-3 md:flex-row md:justify-center md:items-center md:gap-10 md:mt-0 md:py-2 flex-wrap">
+      <ul className="flex flex-col gap-2 text-lg mt-3 md:flex-row md:justify-center md:items-center md:gap-10 md:mt-0 md:py-2 flex-wrap ">
         <a className={linkStyles} href="">About</a>
         <a className={linkStyles} href="">Skills</a>
         <a className={linkStyles} href="">Experience</a>
